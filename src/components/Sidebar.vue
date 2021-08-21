@@ -5,7 +5,7 @@
                 <v-list-item class="my-5">
                     <v-list-item-avatar class="m-0 aff-logo-div">
                         <v-img
-                            src="https://nextivesolution.com/wp-content/uploads/2020/10/logo-rec-outlined-white-1536x456.png"
+                            :src="logo"
                             alt="Nextive Solution"
                             class="img-fluid aff-logo"
                         >
@@ -54,10 +54,11 @@
 </template>
 
 <script>
+    import logo from '../assets/next-logo.png';
     export default {
-        name: 'Sidenav',
+        name: 'Sidebar',
         data: () => ({
-            
+            logo: logo
         }),
 
     }

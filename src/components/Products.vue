@@ -66,7 +66,7 @@
                                             <td class="py-3">{{ item.incentive }}</td>
                                             <td class="py-3">
                                                 <a href="item.caption_poster_video" target="_blank">
-                                                    <v-icon>mdi-google-drive</v-icon>
+                                                    <v-icon color="success" >mdi-google-drive</v-icon>
                                                 </a>
                                             </td>
                                             <td class="py-3">{{ item.distribution_link }}</td>
