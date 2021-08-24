@@ -99,7 +99,7 @@
         methods: { 
             async logIn(){
                 if(this.$refs.loginForm.validate()){
-                    let result = await axios.get(`https://github.com/SaimaAkter-CSECU/next-aff-db/blob/f3bf5db94a537a4c491834f2e7e0128273dad9ea/db.json/users?email=${this.email}&password=${this.password}`); 
+                    let result = await axios.get(`https://raw.githubusercontent.com/SaimaAkter-CSECU/next-aff-db/f3bf5db94a537a4c491834f2e7e0128273dad9ea/db.json/users?email=${this.email}&password=${this.password}`); 
                     if(result.status == 200 && result.data.length > 0){
                         localStorage.setItem("user-info", JSON.stringify(result.data[0]) );  
                         this.$router.push({name: "DashboardVendors"}); 
