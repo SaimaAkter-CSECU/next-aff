@@ -1,0 +1,925 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "Mr X",
+            "email": "abc@gmail.com",
+            "phone": "01521222087", 
+            "password": "123456", 
+            "contact_person": "Mariam Akter", 
+            "contact_person_email": "mariam@gmail.com", 
+            "contact_person_phone": "013456734567", 
+            "code": "cfgv134",
+            "platform_type": "Facebook",
+            "platform_name": "Gadget Room",
+            "platform_link": "http://gadget.rzxdtcfygv.com", 
+            "bkash_no": "0152122087", 
+            "bank_details": "Bank xdtcfvgbh xtcfyvgb xdtcfyvgub cgfv",
+            "total_due": "27",
+            "total_received": "0",
+            "total_earning": "27",
+            "payment_details": [
+                {
+                    "id": 1, 
+                    "date": "01-08-2021",
+                    "medium": "Facebook",
+                    "amount": "220",
+                    "receipt": "http://gadget.rzxdtcfygv.com"
+                },
+                {
+                    "id": 2, 
+                    "date": "03-09-2021",
+                    "amount": "2320",
+                    "medium": "Youtube",
+                    "receipt": "http://gadget.rzxdtcfygv.com"
+                }
+            ]
+        }, 
+        {
+            "id": 2,
+            "name": "Mr Y",
+            "email": "abc2@gmail.com",
+            "phone": "01521222087", 
+            "password": "123456", 
+            "contact_person": "2 Mariam Akter", 
+            "contact_person_email": "mariam2@gmail.com", 
+            "contact_person_phone": "013456734567", 
+            "code": "cfgved564134",
+            "platform_type": "Youtube",
+            "platform_name": "Gadget Room",
+            "platform_link": "http://gadget.rzxdtcfygv.com", 
+            "bkash_no": "0152122087", 
+            "bank_details": "",
+            "total_due": "67",
+            "total_received": "0",
+            "total_earning": "67",
+            "payment_details": []
+        }, 
+        {
+            "id": 3,
+            "name": "Mr Z",
+            "email": "abc3@gmail.com",
+            "phone": "01521222087", 
+            "password": "123456", 
+            "contact_person": "Mariam Akter3", 
+            "contact_person_email": "mariam3@gmail.com", 
+            "contact_person_phone": "013456734567", 
+            "code": "c12fgv134",
+            "platform_type": "Facebook",
+            "platform_name": "Gadget Room 3",
+            "platform_link": "http://gadget.rzxdtcfygv.com", 
+            "bkash_no": "0152122087", 
+            "bank_details": "",
+            "total_due": "17",
+            "total_received": "50",
+            "total_earning": "67",
+            "payment_details": [
+                {
+                    "id": 1, 
+                    "date": "06-08-2021",
+                    "amount": "3220",
+                    "medium": "Facebook",
+                    "receipt": "http://gadget.rzxdtcfygv.com"
+                },
+                {
+                    "id": 2, 
+                    "date": "03-09-2021",
+                    "amount": "82320",
+                    "medium": "Facebook",
+                    "receipt": "http://gadget.rzxdtcfygv.com"
+                }
+            ]
+        }
+
+    ],
+    "productCategories":[
+        {
+            "id": 1,
+            "category": "Job Recruitment", 
+            "products": [
+                {
+                    "id" : 1, 
+                    "name": "Primary Assistant Teachers' Recruitment Course", 
+                    "incentive": "15%",
+                    "caption_poster_video": "https://drive.google.com/drive/folders/1QGvPpH1dPD9v1XScq_8ksaM3BAgLDMBU",
+                    "distribution_link": "https://10minuteschool.com/skills/courses/16/primary-assistant-teacher-recruitment?aff=fbg54153"
+                },
+                {
+                    "id" : 2, 
+                    "name": "BCS", 
+                    "incentive": "15%",
+                    "caption_poster_video": "https://drive.google.com/drive/folders/1QGvPpH1dPD9v1XScq_8ksaM3BAgLDMBU",
+                    "distribution_link": "https://10minuteschool.com/skills/courses/16/primary-assistant-teacher-recruitment?aff=fbg54153"
+                },
+                {
+                    "id" : 3, 
+                    "name": "PSC", 
+                    "incentive": "25%",
+                    "caption_poster_video": "https://drive.google.com/drive/folders/1QGvPpH1dPD9v1XScq_8ksaM3BAgLDMBU",
+                    "distribution_link": "https://10minuteschool.com/skills/courses/16/primary-assistant-teacher-recruitment?aff=fbg54153"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "category": "Self Development", 
+            "products": [
+                {
+                    "id" : 1, 
+                    "name": "2 Primary Assistant Teachers' Recruitment Course", 
+                    "incentive": "15%",
+                    "caption_poster_video": "https://drive.google.com/drive/folders/1QGvPpH1dPD9v1XScq_8ksaM3BAgLDMBU",
+                    "distribution_link": "https://10minuteschool.com/skills/courses/16/primary-assistant-teacher-recruitment?aff=fbg54153"
+                },
+                {
+                    "id" : 2, 
+                    "name": "2 BCS", 
+                    "incentive": "15%",
+                    "caption_poster_video": "https://drive.google.com/drive/folders/1QGvPpH1dPD9v1XScq_8ksaM3BAgLDMBU",
+                    "distribution_link": "https://10minuteschool.com/skills/courses/16/primary-assistant-teacher-recruitment?aff=fbg54153"
+                },
+                {
+                    "id" : 3, 
+                    "name": "2 PSC", 
+                    "incentive": "25%",
+                    "caption_poster_video": "https://drive.google.com/drive/folders/1QGvPpH1dPD9v1XScq_8ksaM3BAgLDMBU",
+                    "distribution_link": "https://10minuteschool.com/skills/courses/16/primary-assistant-teacher-recruitment?aff=fbg54153"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "category": "Admission 2021", 
+            "products": [
+                {
+                    "id" : 1, 
+                    "name": "3 Primary Assistant Teachers' Recruitment Course", 
+                    "incentive": "15%",
+                    "caption_poster_video": "https://drive.google.com/drive/folders/1QGvPpH1dPD9v1XScq_8ksaM3BAgLDMBU",
+                    "distribution_link": "https://10minuteschool.com/skills/courses/16/primary-assistant-teacher-recruitment?aff=fbg54153"
+                },
+                {
+                    "id" : 2, 
+                    "name": "3 BCS", 
+                    "incentive": "15%",
+                    "caption_poster_video": "https://drive.google.com/drive/folders/1QGvPpH1dPD9v1XScq_8ksaM3BAgLDMBU",
+                    "distribution_link": "https://10minuteschool.com/skills/courses/16/primary-assistant-teacher-recruitment?aff=fbg54153"
+                },
+                {
+                    "id" : 3, 
+                    "name": "3 PSC", 
+                    "incentive": "25%",
+                    "caption_poster_video": "https://drive.google.com/drive/folders/1QGvPpH1dPD9v1XScq_8ksaM3BAgLDMBU",
+                    "distribution_link": "https://10minuteschool.com/skills/courses/16/primary-assistant-teacher-recruitment?aff=fbg54153"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "category": "Book Academics", 
+            "products": [
+                {
+                    "id" : 1, 
+                    "name": "4 Primary Assistant Teachers' Recruitment Course", 
+                    "incentive": "15%",
+                    "caption_poster_video": "https://drive.google.com/drive/folders/1QGvPpH1dPD9v1XScq_8ksaM3BAgLDMBU",
+                    "distribution_link": "https://10minuteschool.com/skills/courses/16/primary-assistant-teacher-recruitment?aff=fbg54153"
+                },
+                {
+                    "id" : 2, 
+                    "name": "4 BCS", 
+                    "incentive": "15%",
+                    "caption_poster_video": "https://drive.google.com/drive/folders/1QGvPpH1dPD9v1XScq_8ksaM3BAgLDMBU",
+                    "distribution_link": "https://10minuteschool.com/skills/courses/16/primary-assistant-teacher-recruitment?aff=fbg54153"
+                },
+                {
+                    "id" : 3, 
+                    "name": "4 PSC", 
+                    "incentive": "25%",
+                    "caption_poster_video": "https://drive.google.com/drive/folders/1QGvPpH1dPD9v1XScq_8ksaM3BAgLDMBU",
+                    "distribution_link": "https://10minuteschool.com/skills/courses/16/primary-assistant-teacher-recruitment?aff=fbg54153"
+                },
+                {
+                    "id" : 4, 
+                    "name": "4 Primary Assistant Teachers' Recruitment Course", 
+                    "incentive": "15%",
+                    "caption_poster_video": "https://drive.google.com/drive/folders/1QGvPpH1dPD9v1XScq_8ksaM3BAgLDMBU",
+                    "distribution_link": "https://10minuteschool.com/skills/courses/16/primary-assistant-teacher-recruitment?aff=fbg54153"
+                },
+                {
+                    "id" : 5, 
+                    "name": "4 BCS", 
+                    "incentive": "15%",
+                    "caption_poster_video": "https://drive.google.com/drive/folders/1QGvPpH1dPD9v1XScq_8ksaM3BAgLDMBU",
+                    "distribution_link": "https://10minuteschool.com/skills/courses/16/primary-assistant-teacher-recruitment?aff=fbg54153"
+                },
+                {
+                    "id" : 6, 
+                    "name": "4 PSC", 
+                    "incentive": "25%",
+                    "caption_poster_video": "https://drive.google.com/drive/folders/1QGvPpH1dPD9v1XScq_8ksaM3BAgLDMBU",
+                    "distribution_link": "https://10minuteschool.com/skills/courses/16/primary-assistant-teacher-recruitment?aff=fbg54153"
+                },
+                {
+                    "id" : 7, 
+                    "name": "4 Primary Assistant Teachers' Recruitment Course", 
+                    "incentive": "15%",
+                    "caption_poster_video": "https://drive.google.com/drive/folders/1QGvPpH1dPD9v1XScq_8ksaM3BAgLDMBU",
+                    "distribution_link": "https://10minuteschool.com/skills/courses/16/primary-assistant-teacher-recruitment?aff=fbg54153"
+                },
+                {
+                    "id" : 8, 
+                    "name": "4 BCS", 
+                    "incentive": "15%",
+                    "caption_poster_video": "https://drive.google.com/drive/folders/1QGvPpH1dPD9v1XScq_8ksaM3BAgLDMBU",
+                    "distribution_link": "https://10minuteschool.com/skills/courses/16/primary-assistant-teacher-recruitment?aff=fbg54153"
+                },
+                {
+                    "id" : 9, 
+                    "name": "4 PSC", 
+                    "incentive": "25%",
+                    "caption_poster_video": "https://drive.google.com/drive/folders/1QGvPpH1dPD9v1XScq_8ksaM3BAgLDMBU",
+                    "distribution_link": "https://10minuteschool.com/skills/courses/16/primary-assistant-teacher-recruitment?aff=fbg54153"
+                },                 {
+                    "id" : 10, 
+                    "name": "4 Primary Assistant Teachers' Recruitment Course", 
+                    "incentive": "15%",
+                    "caption_poster_video": "https://drive.google.com/drive/folders/1QGvPpH1dPD9v1XScq_8ksaM3BAgLDMBU",
+                    "distribution_link": "https://10minuteschool.com/skills/courses/16/primary-assistant-teacher-recruitment?aff=fbg54153"
+                },
+                {
+                    "id" : 11, 
+                    "name": "4 BCS", 
+                    "incentive": "15%",
+                    "caption_poster_video": "https://drive.google.com/drive/folders/1QGvPpH1dPD9v1XScq_8ksaM3BAgLDMBU",
+                    "distribution_link": "https://10minuteschool.com/skills/courses/16/primary-assistant-teacher-recruitment?aff=fbg54153"
+                },
+                {
+                    "id" : 12, 
+                    "name": "4 PSC", 
+                    "incentive": "25%",
+                    "caption_poster_video": "https://drive.google.com/drive/folders/1QGvPpH1dPD9v1XScq_8ksaM3BAgLDMBU",
+                    "distribution_link": "https://10minuteschool.com/skills/courses/16/primary-assistant-teacher-recruitment?aff=fbg54153"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "category": "Learning English", 
+            "products": [
+                {
+                    "id" : 1, 
+                    "name": "Kids English", 
+                    "incentive": "15%",
+                    "caption_poster_video": "https://drive.google.com/drive/folders/1QGvPpH1dPD9v1XScq_8ksaM3BAgLDMBU",
+                    "distribution_link": "https://10minuteschool.com/skills/courses/16/primary-assistant-teacher-recruitment?aff=fbg54153"
+                },
+                {
+                    "id" : 2, 
+                    "name": "24 Ghontay Quran Shikhi", 
+                    "incentive": "15%",
+                    "caption_poster_video": "https://drive.google.com/drive/folders/1QGvPpH1dPD9v1XScq_8ksaM3BAgLDMBU",
+                    "distribution_link": "https://10minuteschool.com/skills/courses/16/primary-assistant-teacher-recruitment?aff=fbg54153"
+                },
+                {
+                    "id" : 3, 
+                    "name": "English Grammar Crash Course", 
+                    "incentive": "25%",
+                    "caption_poster_video": "https://drive.google.com/drive/folders/1QGvPpH1dPD9v1XScq_8ksaM3BAgLDMBU",
+                    "distribution_link": "https://10minuteschool.com/skills/courses/16/primary-assistant-teacher-recruitment?aff=fbg54153"
+                },
+                {
+                    "id" : 4, 
+                    "name": "Ghore Boshe Spoken English", 
+                    "incentive": "25%",
+                    "caption_poster_video": "https://drive.google.com/drive/folders/1QGvPpH1dPD9v1XScq_8ksaM3BAgLDMBU",
+                    "distribution_link": "https://10minuteschool.com/skills/courses/16/primary-assistant-teacher-recruitment?aff=fbg54153"
+                }
+            ]
+        }
+    ],
+
+    "productTransactions":[
+        {
+            "id": 1,
+            "category": "Job Recruitment", 
+            "products": [
+                {
+                    "id" : 1, 
+                    "name": "Primary Assistant Teachers' Recruitment Course", 
+                    "total_earning": 450, 
+                    "total_sale": 2890, 
+                    "transactions": [
+                        {
+                            "id": 1,
+                            "date": "24-04-2021", 
+                            "transaction_id": 13243546576879,
+                            "discount_code": "",
+                            "amount": 450,
+                            "commission": 15,
+                            "earning": 67
+                        },
+                        {
+                            "id": 2,
+                            "date": "04-05-2021", 
+                            "transaction_id": 13243546576879,
+                            "discount_code": "",
+                            "amount": 450,
+                            "commission": 15,
+                            "earning": 67
+                        }
+                    ]
+                },
+                {
+                    "id" : 2, 
+                    "name": "BCS", 
+                    "total_earning": 450, 
+                    "total_sale": 2890, 
+                    "transactions": [
+                        {
+                            "id": 1,
+                            "date": "24-04-2021", 
+                            "transaction_id": 13243546576879,
+                            "discount_code": "",
+                            "amount": 450,
+                            "commission": 15,
+                            "earning": 67
+                        }
+                    ]
+                },
+                {
+                    "id" : 3, 
+                    "name": "PSC", 
+                    "total_earning": 0, 
+                    "total_sale": 0, 
+                    "transactions": []
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "category": "Self Development", 
+            "products": [
+                {
+                    "id" : 1, 
+                    "name": "2 Primary Assistant Teachers' Recruitment Course", 
+                    "total_earning": 450, 
+                    "total_sale": 2890, 
+                    "transactions": [
+                        {
+                            "id": 1,
+                            "date": "24-04-2021", 
+                            "transaction_id": 13243546576879,
+                            "discount_code": "",
+                            "amount": 450,
+                            "commission": 15,
+                            "earning": 67
+                        },
+                        {
+                            "id": 2,
+                            "date": "04-05-2021", 
+                            "transaction_id": 13243546576879,
+                            "discount_code": "",
+                            "amount": 450,
+                            "commission": 15,
+                            "earning": 67
+                        }
+                    ]
+                },
+                {
+                    "id" : 2, 
+                    "name": "2 BCS", 
+                    "total_earning": 450, 
+                    "total_sale": 2890, 
+                    "transactions": [
+                        {
+                            "id": 1,
+                            "date": "24-04-2021", 
+                            "transaction_id": 13243546576879,
+                            "discount_code": "",
+                            "amount": 450,
+                            "commission": 15,
+                            "earning": 67
+                        },
+                        {
+                            "id": 2,
+                            "date": "04-05-2021", 
+                            "transaction_id": 13243546576879,
+                            "discount_code": "",
+                            "amount": 450,
+                            "commission": 15,
+                            "earning": 67
+                        }
+                    ]
+                },
+                {
+                    "id" : 3, 
+                    "name": "2 PSC", 
+                    "transactions": []
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "category": "Admission 2021", 
+            "products": [
+                {
+                    "id" : 1, 
+                    "name": "3 Primary Assistant Teachers' Recruitment Course", 
+                    "total_earning": 450, 
+                    "total_sale": 2890, 
+                    "transactions": [
+                        {
+                            "id": 1,
+                            "date": "24-04-2021", 
+                            "transaction_id": 13243546576879,
+                            "discount_code": "",
+                            "amount": 450,
+                            "commission": 15,
+                            "earning": 67
+                        },
+                        {
+                            "id": 2,
+                            "date": "04-05-2021", 
+                            "transaction_id": 13243546576879,
+                            "discount_code": "",
+                            "amount": 450,
+                            "commission": 15,
+                            "earning": 67
+                        }
+                    ]
+                },
+                {
+                    "id" : 2, 
+                    "name": "3 BCS", 
+                    "total_earning": 450, 
+                    "total_sale": 2890, 
+                    "transactions": [
+                        {
+                            "id": 1,
+                            "date": "24-04-2021", 
+                            "transaction_id": 13243546576879,
+                            "discount_code": "",
+                            "amount": 450,
+                            "commission": 15,
+                            "earning": 67
+                        },
+                        {
+                            "id": 2,
+                            "date": "04-05-2021", 
+                            "transaction_id": 13243546576879,
+                            "discount_code": "",
+                            "amount": 450,
+                            "commission": 15,
+                            "earning": 67
+                        }
+                    ]
+                },
+                {
+                    "id" : 3, 
+                    "name": "3 PSC", 
+                    "total_earning": 450, 
+                    "total_sale": 2890, 
+                    "transactions": [
+                        {
+                            "id": 1,
+                            "date": "24-04-2021", 
+                            "transaction_id": 13243546576879,
+                            "discount_code": "",
+                            "amount": 450,
+                            "commission": 15,
+                            "earning": 67
+                        },
+                        {
+                            "id": 2,
+                            "date": "04-05-2021", 
+                            "transaction_id": 13243546576879,
+                            "discount_code": "",
+                            "amount": 450,
+                            "commission": 15,
+                            "earning": 67
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "category": "Book Academics", 
+            "products": [
+                {
+                    "id" : 1, 
+                    "name": "4 Primary Assistant Teachers' Recruitment Course", 
+                    "total_earning": 450, 
+                    "total_sale": 2890, 
+                    "transactions": [
+                        {
+                            "id": 1,
+                            "date": "24-04-2021", 
+                            "transaction_id": 13243546576879,
+                            "discount_code": "",
+                            "amount": 450,
+                            "commission": 15,
+                            "earning": 67
+                        },
+                        {
+                            "id": 2,
+                            "date": "04-05-2021", 
+                            "transaction_id": 13243546576879,
+                            "discount_code": "",
+                            "amount": 450,
+                            "commission": 15,
+                            "earning": 67
+                        }
+                    ]
+                },
+                {
+                    "id" : 2, 
+                    "name": "4 BCS", 
+                    "total_earning": 450, 
+                    "total_sale": 2890, 
+                    "transactions": [
+                        {
+                            "id": 1,
+                            "date": "24-04-2021", 
+                            "transaction_id": 13243546576879,
+                            "discount_code": "",
+                            "amount": 450,
+                            "commission": 15,
+                            "earning": 67
+                        },
+                        {
+                            "id": 2,
+                            "date": "04-05-2021", 
+                            "transaction_id": 13243546576879,
+                            "discount_code": "",
+                            "amount": 450,
+                            "commission": 15,
+                            "earning": 67
+                        }
+                    ]
+                },
+                {
+                    "id" : 3, 
+                    "name": "4 PSC", 
+                    "total_earning": 450, 
+                    "total_sale": 2890, 
+                    "transactions": [
+                        {
+                            "id": 1,
+                            "date": "24-04-2021", 
+                            "transaction_id": 13243546576879,
+                            "discount_code": "",
+                            "amount": 450,
+                            "commission": 15,
+                            "earning": 67
+                        },
+                        {
+                            "id": 2,
+                            "date": "04-05-2021", 
+                            "transaction_id": 13243546576879,
+                            "discount_code": "",
+                            "amount": 450,
+                            "commission": 15,
+                            "earning": 67
+                        }
+                    ]
+                },
+                {
+                    "id" : 4, 
+                    "name": "4 Primary Assistant Teachers' Recruitment Course", 
+                    "total_earning": 450, 
+                    "total_sale": 2890, 
+                    "transactions": [
+                        {
+                            "id": 1,
+                            "date": "24-04-2021", 
+                            "transaction_id": 13243546576879,
+                            "discount_code": "",
+                            "amount": 450,
+                            "commission": 15,
+                            "earning": 67
+                        },
+                        {
+                            "id": 2,
+                            "date": "04-05-2021", 
+                            "transaction_id": 13243546576879,
+                            "discount_code": "",
+                            "amount": 450,
+                            "commission": 15,
+                            "earning": 67
+                        }
+                    ]
+                },
+                {
+                    "id" : 5, 
+                    "name": "4 BCS", 
+                    "total_earning": 450, 
+                    "total_sale": 2890, 
+                    "transactions": [
+                        {
+                            "id": 1,
+                            "date": "24-04-2021", 
+                            "transaction_id": 13243546576879,
+                            "discount_code": "",
+                            "amount": 450,
+                            "commission": 15,
+                            "earning": 67
+                        },
+                        {
+                            "id": 2,
+                            "date": "04-05-2021", 
+                            "transaction_id": 13243546576879,
+                            "discount_code": "",
+                            "amount": 450,
+                            "commission": 15,
+                            "earning": 67
+                        }
+                    ]
+                },
+                {
+                    "id" : 6, 
+                    "name": "4 PSC", 
+                    "total_earning": 450, 
+                    "total_sale": 2890, 
+                    "transactions": [
+                        {
+                            "id": 1,
+                            "date": "24-04-2021", 
+                            "transaction_id": 13243546576879,
+                            "discount_code": "",
+                            "amount": 450,
+                            "commission": 15,
+                            "earning": 67
+                        },
+                        {
+                            "id": 2,
+                            "date": "04-05-2021", 
+                            "transaction_id": 13243546576879,
+                            "discount_code": "",
+                            "amount": 450,
+                            "commission": 15,
+                            "earning": 67
+                        }
+                    ]
+                },
+                {
+                    "id" : 7, 
+                    "name": "4 Primary Assistant Teachers' Recruitment Course", 
+                    "total_earning": 450, 
+                    "total_sale": 2890, 
+                    "transactions": [
+                        {
+                            "id": 1,
+                            "date": "24-04-2021", 
+                            "transaction_id": 13243546576879,
+                            "discount_code": "",
+                            "amount": 450,
+                            "commission": 15,
+                            "earning": 67
+                        },
+                        {
+                            "id": 2,
+                            "date": "04-05-2021", 
+                            "transaction_id": 13243546576879,
+                            "discount_code": "",
+                            "amount": 450,
+                            "commission": 15,
+                            "earning": 67
+                        }
+                    ]
+                },
+                {
+                    "id" : 8, 
+                    "name": "4 BCS", 
+                    "total_earning": 450, 
+                    "total_sale": 2890, 
+                    "transactions": [
+                        {
+                            "id": 1,
+                            "date": "24-04-2021", 
+                            "transaction_id": 13243546576879,
+                            "discount_code": "",
+                            "amount": 450,
+                            "commission": 15,
+                            "earning": 67
+                        },
+                        {
+                            "id": 2,
+                            "date": "04-05-2021", 
+                            "transaction_id": 13243546576879,
+                            "discount_code": "",
+                            "amount": 450,
+                            "commission": 15,
+                            "earning": 67
+                        }
+                    ]
+                },
+                {
+                    "id" : 9, 
+                    "name": "4 PSC", 
+                    "total_earning": 450, 
+                    "total_sale": 2890, 
+                    "transactions": [
+                        {
+                            "id": 1,
+                            "date": "24-04-2021", 
+                            "transaction_id": 13243546576879,
+                            "discount_code": "",
+                            "amount": 450,
+                            "commission": 15,
+                            "earning": 67
+                        },
+                        {
+                            "id": 2,
+                            "date": "04-05-2021", 
+                            "transaction_id": 13243546576879,
+                            "discount_code": "",
+                            "amount": 450,
+                            "commission": 15,
+                            "earning": 67
+                        }
+                    ]
+                },                 {
+                    "id" : 10, 
+                    "name": "4 Primary Assistant Teachers' Recruitment Course", 
+                    "total_earning": 450, 
+                    "total_sale": 2890, 
+                    "transactions": [
+                        {
+                            "id": 1,
+                            "date": "24-04-2021", 
+                            "transaction_id": 13243546576879,
+                            "discount_code": "",
+                            "amount": 450,
+                            "commission": 15,
+                            "earning": 67
+                        },
+                        {
+                            "id": 2,
+                            "date": "04-05-2021", 
+                            "transaction_id": 13243546576879,
+                            "discount_code": "",
+                            "amount": 450,
+                            "commission": 15,
+                            "earning": 67
+                        }
+                    ]
+                },
+                {
+                    "id" : 11, 
+                    "name": "4 BCS", 
+                    "total_earning": 450, 
+                    "total_sale": 2890, 
+                    "transactions": [
+                        {
+                            "id": 1,
+                            "date": "24-04-2021", 
+                            "transaction_id": 13243546576879,
+                            "discount_code": "",
+                            "amount": 450,
+                            "commission": 15,
+                            "earning": 67
+                        }
+                    ]
+                },
+                {
+                    "id" : 12, 
+                    "name": "4 PSC", 
+                    "total_earning": 450, 
+                    "total_sale": 2890, 
+                    "transactions": [
+                        {
+                            "id": 1,
+                            "date": "24-04-2021", 
+                            "transaction_id": 13243546576879,
+                            "discount_code": "",
+                            "amount": 450,
+                            "commission": 15,
+                            "earning": 67
+                        },
+                        {
+                            "id": 2,
+                            "date": "04-05-2021", 
+                            "transaction_id": 13243546576879,
+                            "discount_code": "",
+                            "amount": 450,
+                            "commission": 15,
+                            "earning": 67
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "category": "Learning English", 
+            "products": [
+                {
+                    "id" : 1, 
+                    "name": "Kids English", 
+                    "total_earning": 450, 
+                    "total_sale": 2890, 
+                    "transactions": [
+                        {
+                            "id": 1,
+                            "date": "24-04-2021", 
+                            "transaction_id": 13243546576879,
+                            "discount_code": "",
+                            "amount": 450,
+                            "commission": 15,
+                            "earning": 67
+                        },
+                        {
+                            "id": 2,
+                            "date": "04-05-2021", 
+                            "transaction_id": 13243546576879,
+                            "discount_code": "",
+                            "amount": 450,
+                            "commission": 15,
+                            "earning": 67
+                        }
+                    ]
+                },
+                {
+                    "id" : 2, 
+                    "name": "24 Ghontay Quran Shikhi", 
+                    "total_earning": 450, 
+                    "total_sale": 2890, 
+                    "transactions": [
+                        {
+                            "id": 1,
+                            "date": "24-04-2021", 
+                            "transaction_id": 13243546576879,
+                            "discount_code": "",
+                            "amount": 450,
+                            "commission": 15,
+                            "earning": 67
+                        },
+                        {
+                            "id": 2,
+                            "date": "04-05-2021", 
+                            "transaction_id": 13243546576879,
+                            "discount_code": "",
+                            "amount": 450,
+                            "commission": 15,
+                            "earning": 67
+                        }
+                    ]
+                },
+                {
+                    "id" : 3, 
+                    "name": "English Grammar Crash Course", 
+                    "total_earning": 450, 
+                    "total_sale": 2890, 
+                    "transactions": [
+                        {
+                            "id": 1,
+                            "date": "24-04-2021", 
+                            "transaction_id": 13243546576879,
+                            "discount_code": "",
+                            "amount": 450,
+                            "commission": 15,
+                            "earning": 67
+                        },
+                        {
+                            "id": 2,
+                            "date": "04-05-2021", 
+                            "transaction_id": 13243546576879,
+                            "discount_code": "",
+                            "amount": 450,
+                            "commission": 15,
+                            "earning": 67
+                        }
+                    ]
+                },
+                {
+                    "id" : 4, 
+                    "name": "Ghore Boshe Spoken English", 
+                    "total_earning": 450, 
+                    "total_sale": 2890, 
+                    "transactions": [
+                        {
+                            "id": 1,
+                            "date": "24-04-2021", 
+                            "transaction_id": 13243546576879,
+                            "discount_code": "",
+                            "amount": 450,
+                            "commission": 15,
+                            "earning": 67
+                        },
+                        {
+                            "id": 2,
+                            "date": "04-05-2021", 
+                            "transaction_id": 13243546576879,
+                            "discount_code": "",
+                            "amount": 450,
+                            "commission": 15,
+                            "earning": 67
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
