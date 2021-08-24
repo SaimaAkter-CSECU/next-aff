@@ -100,7 +100,7 @@
         methods: { 
             async logIn(){
                 if(this.$refs.loginForm.validate()){
-                    let result = await axios.get(`https://github.com/SaimaAkter-CSECU/next-aff-db/blob/main/db.json/users?email=${this.email}&password=${this.password}`); 
+                    let result = await axios.get(`https://github.com/SaimaAkter-CSECU/next-aff-db/main/db.json/users?email=${this.email}&password=${this.password}`); 
                     if(result.status == 200 && result.data.length > 0){
                         localStorage.setItem("user-info", JSON.stringify(result.data[0]) );  
                         this.$router.push({name: "DashboardVendors"}); 
