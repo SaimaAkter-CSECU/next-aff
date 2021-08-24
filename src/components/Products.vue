@@ -127,12 +127,12 @@
         }),
         methods: {
             async allProducts(){
-                let result = await axios.get(`http://localhost:3000/productCategories`); 
+                let result = await axios.get(`https://github.com/SaimaAkter-CSECU/next-aff-db/blob/main/db.json/productCategories`); 
                 this.categories = result.data; 
                 // console.log(this.categories)
             },
             async getCategory(){
-                let productlist = await axios.get(`http://localhost:3000/productCategories?id=${this.productCat}`); 
+                let productlist = await axios.get(`https://github.com/SaimaAkter-CSECU/next-aff-db/blob/main/db.json/productCategories?id=${this.productCat}`); 
                 this.products = productlist.data[0].products; 
             },
             async copyLink(link){
