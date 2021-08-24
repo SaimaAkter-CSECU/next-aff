@@ -307,11 +307,11 @@
         }), 
         methods: {
             async allProducts(){
-                let result = await axios.get(`https://github.com/SaimaAkter-CSECU/next-aff-db/blob/main/db.json/productTransactions`); 
+                let result = await axios.get(`https://raw.githubusercontent.com/SaimaAkter-CSECU/next-aff-db/f3bf5db94a537a4c491834f2e7e0128273dad9ea/db.json/productTransactions`); 
                 this.categories = result.data; 
             }, 
             async getCategory(){
-                let productlist = await axios.get(`https://github.com/SaimaAkter-CSECU/next-aff-db/blob/main/db.json/productTransactions?id=${this.productCat}`); 
+                let productlist = await axios.get(`https://raw.githubusercontent.com/SaimaAkter-CSECU/next-aff-db/f3bf5db94a537a4c491834f2e7e0128273dad9ea/db.json/productTransactions?id=${this.productCat}`); 
                 this.products = productlist.data[0].products;  
             }, 
             async getProduct(){
